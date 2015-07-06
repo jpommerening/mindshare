@@ -1,0 +1,31 @@
+{
+  "name": "mindshare",
+  "version": "0.0.0",
+  "description": "Shared data model and pub-sub middleware for distributed services",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jpommerening/mindshare.git"
+  },
+  "author": {
+    "name": "Jonas Pommerening",
+    "email": "jonas.pommerening@gmail.com",
+    "url": "https://npmjs.org/~jpommerening"
+  },
+  "bugs": {
+    "url": "http://github.com/jpommerening/mindshare/issues"
+  },
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "dependencies": {
+    "nanomsg": "~1.1.1",
+    "msgpack": "~0.2.6",
+    "sqlite3": "~3.0.8",
+    "immutable": "~3.7.4"
+  },
+  "devDependencies": {
+    "mocha": "~2.2.5",
+    "expect.js": "~0.3.1"
+  }
+}
